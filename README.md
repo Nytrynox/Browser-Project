@@ -1,41 +1,36 @@
+<div align="center">
+
 # Browser Project
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-JavaScript-blue?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=law&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
+</p>
+
+*An advanced software structure developed by Karthik Idikuda.*
+
+<br/>
+
+</div>
+
 ## Overview
-A lightweight, privacy-focused web browser engineered for speed and security. This project implements a custom rendering interface wrapper around modern web engines, stripping away bloat to provide a distraction-free surfing experience.
+Custom-built web browser engine using CEF and C++.
 
-## Features
--   **Privacy Shield**: Built-in blocking of ads and trackers by default.
--   **Fast Rendering**: Minimalist UI overhead ensures maximum page load speed.
--   **Secure Storage**: Local encryption for bookmarks and browsing history.
--   **Incognito Mode**: Ephemeral sessions that leave no trace on the disk.
--   **Customizable UI**: Theming support to match user preferences.
+<br/>
 
-## Technology Stack
--   **Core**: Electron / Chromium Embedded Framework (CEF).
--   **Language**: JavaScript / TypeScript.
--   **Engine**: V8 JavaScript Engine.
--   **Security**: HTTPS-Everywhere integration.
+## Architecture & Features
+- **Clean Architecture:** Ensures high maintainability and modular structure.
+- **Optimized Performance:** Built to handle intensive operations with minimal latency.
+- **Scalable Design:** Seamlessly adaptable for future functional expansions.
 
-## Usage Flow
-1.  **Launch**: User opens the browser application.
-2.  **Navigate**: User enters a URL or search query in the omnibar.
-3.  **Render**: The engine fetches and displays the web content, blocking ads.
-4.  **Manage**: User organizes tabs and bookmarks via the sidebar.
-
-## Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/Nytrynox/Browser-Project.git
-
-# Install dependencies
-npm install
-
-# Build and Run
-npm start
-```
+<br/>
 
 ## License
-MIT License
+This project operates under the **MIT License**. See the `LICENSE` file for more details.
 
-## Author
-**Karthik Idikuda**
+---
+<div align="center">
+  <br/>
+  <i>Engineered by <b>Karthik Idikuda</b></i>
+</div>
